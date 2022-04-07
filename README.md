@@ -1,4 +1,7 @@
 
+AspectJ development Tools is installed
+and I keep getting this error when I run the code trying to implement aspectJ for @Transactional
+
 javax.persistence.TransactionRequiredException: No EntityManager with actual transaction available for current thread - cannot reliably process 'persist' call
 	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:295)
 	at jdk.proxy3/jdk.proxy3.$Proxy197.persist(Unknown Source)
